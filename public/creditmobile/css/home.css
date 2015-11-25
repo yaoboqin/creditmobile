@@ -1,0 +1,105 @@
+.slide-box{ 
+	background: url(/creditmobile/images/items-bg.jpg);
+}
+.slide-box img{ 
+	width: 100%;
+}
+[data-dpr="2"] .slider-pager{ 
+	height: 20px;
+}
+[data-dpr="3"] .slider-pager{ 
+	height: 30px;
+}
+[data-dpr="2"] .slider-pager .slider-pager-page{ 
+	margin: 0 6px;
+}
+[data-dpr="3"] .slider-pager .slider-pager-page{ 
+	margin: 0 9px;
+}
+.home-button{ 
+	background: url(/creditmobile/images/items-bg.jpg);
+	width: 10rem;
+	height: 3.2rem;
+	display: flex;
+}
+[data-dpr="2"] .home-button{ 
+	height: 2.7rem;
+}
+[data-dpr="3"] .home-button{ 
+	height: 2.5rem;
+}
+.home-button .btn{ 
+	width: 2.4rem;
+	height: 3rem;
+	display: inline-block;
+	-webkit-box-flex:1.0; 
+	text-align: center;
+}
+[data-dpr="2"] .home-button .btn{ 
+	height: 2.5rem;
+}
+[data-dpr="3"] .home-button .btn{ 
+	height: 2.3rem;
+}
+.home-button .btn .title{ 
+	color: #323232;
+	font-size: 16px;
+}
+[data-dpr="2"] .home-button .btn .title {
+    font-size: 32px;
+}
+[data-dpr="3"] .home-button .btn .title {
+    font-size: 48px;
+}
+.home-button .btn i{ 
+	width: 2.38rem;
+	height: 2.38rem;
+	display: block;
+	background: url(/creditmobile/images/home-button.png);
+	background-size: 16rem;
+}
+[data-dpr="2"] .home-button .btn i{ 
+	width: 2rem;
+	height: 2rem;
+	background-size: 14rem;
+}
+[data-dpr="3"] .home-button .btn i{ 
+	height: 1.9rem;
+	background-size: 12rem;
+}
+.home-button .btn.register i{ 
+	background-position: -0.55rem 0.2rem
+}
+[data-dpr="2"] .home-button .btn.register i{ 
+	background-position: -0.3rem 0.1rem
+}
+[data-dpr="3"] .home-button .btn.register i{ 
+	background-position: -0.12rem -1.3rem
+}
+.home-button .btn.login i{ 
+	background-position: -3.1rem 0.2rem
+}
+[data-dpr="2"] .home-button .btn.login i{ 
+	background-position: -2.5rem 0.1rem
+}
+[data-dpr="3"] .home-button .btn.login i{ 
+	background-position: -2rem -1.3rem
+}
+.home-button .btn.newhand i{ 
+	background-position: -5.55rem 0.2rem
+}
+[data-dpr="2"] .home-button .btn.newhand i{ 
+	background-position: -4.7rem 0.1rem
+}
+[data-dpr="3"] .home-button .btn.newhand i{ 
+	background-position: -3.9rem -1.3rem
+}
+.home-button .btn.security i{ 
+	background-position: -8.05rem 0.2rem
+}
+[data-dpr="2"] .home-button .btn.security i{ 
+	background-position: -6.9rem 0.1rem
+}
+[data-dpr="3"] .home-button .btn.security i{ 
+	background-position: -5.75rem -1.3rem
+}

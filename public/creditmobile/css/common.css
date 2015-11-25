@@ -1,0 +1,76 @@
+[data-dpr="2"] .bar{ 
+	padding: 10px;
+	height: 86px; 
+}
+[data-dpr="3"] .bar{ 
+	padding: 15px;
+	height: 128px; 
+}
+.button .icon,
+.button .back-text{ 
+	color: #fff;
+}
+.bar .title{ 
+	color: #fff;
+}
+[data-dpr="2"] .bar .title{ 
+	font-size: 34px;
+	height: 86px;
+	line-height: 88px; 
+}
+[data-dpr="3"] .bar .title{ 
+	font-size: 51px;
+	height: 128px;
+	line-height: 132px; 
+}
+.bar-credit{ 
+	background: #7c2327;
+}
+.tabs-blank .tabs{ 
+	background: #f5f5f4;
+}
+.tab-nav{ 
+	height: 1.5rem;
+}
+.tab-icon{ 
+	background: url(/creditmobile/images/tab-icons.png);
+	background-size: 12rem;
+}
+.tabs-striped .tab-nav.tabs{ 
+	border: 1px solid #ddd;
+}
+.tab-item{ 
+	max-width: none;
+}
+.tabs-striped .tab-item.tab-item-active, 
+.tabs-striped .tab-item.active, 
+.tabs-striped .tab-item.activated{
+	border-color: #7c2327;
+}
+.tab-icon .tab-title{ 
+	display: none;
+}
+.tab-icon.home{ 
+	background-position: -0.7rem -0.35rem;
+}
+.tab-icon.product{ 
+	background-position: -3.5rem -0.35rem;
+}
+.tab-icon.account{ 
+	background-position: -6.3rem -0.35rem;
+}
+.tab-icon.more{ 
+	background-position: -9.1rem -0.35rem;
+}
+.tab-icon.home.tab-item-active{ 
+	background-position: -0.7rem -2rem;
+}
+.tab-icon.product.tab-item-active{ 
+	background-position: -3.5rem -2rem;
+}
+.tab-icon.account.tab-item-active{ 
+	background-position: -6.3rem -2rem;
+}
+.tab-icon.more.tab-item-active{ 
+	background-position: -9.1rem -2rem;
+}

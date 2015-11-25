@@ -1,0 +1,70 @@
+.products-main h2{ 
+	margin: 0.2rem 0;
+	text-indent: 0.2rem;
+	font-size: 16px;
+}
+[data-dpr="2"] .products-main h2{ 
+	font-size: 32px;
+}
+[data-dpr="3"] .products-main h2{ 
+	font-size: 48px;
+}
+.products-item{ 
+	background: url(/creditmobile/images/items-bg.jpg);
+	font-size: 14px;
+	padding: 0.27rem 0.46rem;
+}
+[data-dpr="2"] .products-item{ 
+	font-size: 28px;
+
+}
+[data-dpr="3"] .products-item{ 
+	font-size: 42px;
+}
+.products-item h3{ 
+	font-size: 12px;
+	line-height: 24px;
+}
+[data-dpr="2"] .products-item h3{ 
+	font-size: 24px;
+	line-height: 48px;
+
+}
+[data-dpr="3"] .products-item h3{ 
+	font-size: 36px;
+	line-height: 72px;
+}
+.products-item h3 i{ 
+	background: #d16a50;
+	color: #fff;
+	line-height: 24px;
+	font-style: normal;
+	padding: 0.2rem;
+	margin-left: 0.2rem;
+	border-radius: 0.2rem;
+}
+.product-number{
+	display: flex;
+	margin-top: 0.2rem;
+}
+.product-number .rate,
+.product-number .days-amount,
+.product-number .progress{ 
+	display: inline-block;
+	-webkit-box-flex:1.0; 
+	width: 30%;
+}
+.product-number .days-amount{ 
+	width: 40%;
+}
+.product-number .rate{ 
+	font-size: 24px;
+	color: #7c2327;
+	font-weight: bold;
+}
+[data-dpr="2"] .product-number .rate{ 
+	font-size: 48px;
+}
+[data-dpr="3"] .product-number .rate{ 
+	font-size: 72px;
+}
