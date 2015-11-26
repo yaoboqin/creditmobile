@@ -1,3 +1,16 @@
+.bar-credit,
+.view-container{ 
+	max-width: 10rem;
+}
+.view-container{ 
+	background: #fff;
+}
+[data-dpr="2"] .has-header{ 
+	top: 86px;
+}
+[data-dpr="3"] .has-header{ 
+	top: 128px;
+}
 [data-dpr="2"] .bar{ 
 	padding: 10px;
 	height: 86px; 

@@ -1,5 +1,5 @@
 <ion-view title="精品推荐">
-    <ion-content has-header="true" padding="false">
+    <ion-content has-header="true" padding="false" on-scroll="animateEle()">
       <ion-slide-box auto-play="true" slide-interval="3000" does-continue="true">
 	    <ion-slide>
 	      <div class="box slide-box">
@@ -24,14 +24,191 @@
 		  <ion-item class="products-item">
 		    <h3>通用担保0315-028-3<i class="newhand">新手专享</i></h3>
 		    <div class="product-number">
-		    	<div class="rate">15.00%</div>
+		    	<div class="rate">15%</div>
 		    	<div class="days-amount">
 		    		<p>180天</p>
 		    		<p>30万</p>
 		    	</div>
 		    	<div class="progress">
-		    		72%
+		    		<div class="progress-box">
+		    			<canvas class="cycle" id="circle-progress-default-1" data-percent="73"></canvas>
+		    		</div>
 		    	</div>
+		    </div>
+		    <div class="product-info">
+		    	<span class="company"><i></i><span class="companyname">嘉利达金融公司</span></span>
+		    	<span class="type">息随本清</span>
+		    </div>
+		  </ion-item>
+		  <ion-item class="products-item">
+		    <h3>通用担保0315-028-3<i class="newhand">新手专享</i></h3>
+		    <div class="product-number">
+		    	<div class="rate">15%</div>
+		    	<div class="days-amount">
+		    		<p>180天</p>
+		    		<p>30万</p>
+		    	</div>
+		    	<div class="progress">
+		    		<div class="progress-box">
+		    			<canvas class="cycle" id="circle-progress-default-2" data-percent="22"></canvas>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="product-info">
+		    	<span class="company"><i></i><span class="companyname">嘉利达金融公司</span></span>
+		    	<span class="type">息随本清</span>
+		    </div>
+		  </ion-item>
+		  <ion-item class="products-item">
+		    <h3>通用担保0315-028-3<i class="newhand">新手专享</i></h3>
+		    <div class="product-number">
+		    	<div class="rate">15%</div>
+		    	<div class="days-amount">
+		    		<p>180天</p>
+		    		<p>30万</p>
+		    	</div>
+		    	<div class="progress">
+		    		<div class="progress-box">
+		    			<canvas class="cycle" id="circle-progress-default-3" data-percent="55"></canvas>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="product-info">
+		    	<span class="company"><i></i><span class="companyname">嘉利达金融公司</span></span>
+		    	<span class="type">息随本清</span>
+		    </div>
+		  </ion-item>
+		  <ion-item class="products-item">
+		    <h3>通用担保0315-028-3<i class="newhand">新手专享</i></h3>
+		    <div class="product-number">
+		    	<div class="rate">15%</div>
+		    	<div class="days-amount">
+		    		<p>180天</p>
+		    		<p>30万</p>
+		    	</div>
+		    	<div class="progress">
+		    		<div class="progress-box">
+		    			<canvas class="cycle" id="circle-progress-default-4" data-percent="0"></canvas>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="product-info">
+		    	<span class="company"><i></i><span class="companyname">嘉利达金融公司</span></span>
+		    	<span class="type">息随本清</span>
+		    </div>
+		  </ion-item>
+		  <ion-item class="products-item">
+		    <h3>通用担保0315-028-3<i class="newhand">新手专享</i></h3>
+		    <div class="product-number">
+		    	<div class="rate">15%</div>
+		    	<div class="days-amount">
+		    		<p>180天</p>
+		    		<p>30万</p>
+		    	</div>
+		    	<div class="progress">
+		    		<div class="progress-box">
+		    			<canvas class="cycle" id="circle-progress-default-5" data-percent="100"></canvas>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="product-info">
+		    	<span class="company"><i></i><span class="companyname">嘉利达金融公司</span></span>
+		    	<span class="type">息随本清</span>
+		    </div>
+		  </ion-item>
+		  <ion-item class="products-item">
+		    <h3>通用担保0315-028-3<i class="newhand">新手专享</i></h3>
+		    <div class="product-number">
+		    	<div class="rate">15%</div>
+		    	<div class="days-amount">
+		    		<p>180天</p>
+		    		<p>30万</p>
+		    	</div>
+		    	<div class="progress">
+		    		<div class="progress-box">
+		    			<canvas class="cycle" id="circle-progress-default-6" data-percent="92"></canvas>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="product-info">
+		    	<span class="company"><i></i><span class="companyname">嘉利达金融公司</span></span>
+		    	<span class="type">息随本清</span>
+		    </div>
+		  </ion-item>
+		  <ion-item class="products-item">
+		    <h3>通用担保0315-028-3<i class="newhand">新手专享</i></h3>
+		    <div class="product-number">
+		    	<div class="rate">15%</div>
+		    	<div class="days-amount">
+		    		<p>180天</p>
+		    		<p>30万</p>
+		    	</div>
+		    	<div class="progress">
+		    		<div class="progress-box">
+		    			<canvas class="cycle" id="circle-progress-default-7" data-percent="15"></canvas>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="product-info">
+		    	<span class="company"><i></i><span class="companyname">嘉利达金融公司</span></span>
+		    	<span class="type">息随本清</span>
+		    </div>
+		  </ion-item>
+		  <ion-item class="products-item">
+		    <h3>通用担保0315-028-3<i class="newhand">新手专享</i></h3>
+		    <div class="product-number">
+		    	<div class="rate">15%</div>
+		    	<div class="days-amount">
+		    		<p>180天</p>
+		    		<p>30万</p>
+		    	</div>
+		    	<div class="progress">
+		    		<div class="progress-box">
+		    			<canvas class="cycle" id="circle-progress-default-8" data-percent="9"></canvas>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="product-info">
+		    	<span class="company"><i></i><span class="companyname">嘉利达金融公司</span></span>
+		    	<span class="type">息随本清</span>
+		    </div>
+		  </ion-item>
+		  <ion-item class="products-item">
+		    <h3>通用担保0315-028-3<i class="newhand">新手专享</i></h3>
+		    <div class="product-number">
+		    	<div class="rate">15%</div>
+		    	<div class="days-amount">
+		    		<p>180天</p>
+		    		<p>30万</p>
+		    	</div>
+		    	<div class="progress">
+		    		<div class="progress-box">
+		    			<canvas class="cycle" id="circle-progress-default-9" data-percent="66"></canvas>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="product-info">
+		    	<span class="company"><i></i><span class="companyname">嘉利达金融公司</span></span>
+		    	<span class="type">息随本清</span>
+		    </div>
+		  </ion-item>
+		  <ion-item class="products-item">
+		    <h3>通用担保0315-028-3<i class="newhand">新手专享</i></h3>
+		    <div class="product-number">
+		    	<div class="rate">15%</div>
+		    	<div class="days-amount">
+		    		<p>180天</p>
+		    		<p>30万</p>
+		    	</div>
+		    	<div class="progress">
+		    		<div class="progress-box">
+		    			<canvas class="cycle" id="circle-progress-default-10" data-percent="2"></canvas>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="product-info">
+		    	<span class="company"><i></i><span class="companyname">嘉利达金融公司</span></span>
+		    	<span class="type">息随本清</span>
 		    </div>
 		  </ion-item>
 		</ion-list>	
