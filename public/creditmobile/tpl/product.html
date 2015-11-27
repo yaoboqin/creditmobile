@@ -1,5 +1,27 @@
 <ion-view title="理财产品">
-  <ion-content has-header="true" padding="true">
-    
-  </ion-content>
+    <ion-content has-header="true" padding="false" on-scroll="animateEle()">
+	  <div class="products-main">
+	  	<ion-list>
+		  <ion-item class="products-item" ng-repeat="item in items">
+		    <h3>{{item.title}}<i class="newhand">新手专享</i></h3>
+		    <div class="product-number">
+		    	<div class="rate">{{item.rate}}%</div>
+		    	<div class="days-amount">
+		    		<p>{{item.span}}天</p>
+		    		<p>{{item.amounts}}万</p>
+		    	</div>
+		    	<div class="progress">
+		    		<div class="progress-box">
+		    			<canvas class="cycle" data-percent="{{item.percent}}"></canvas>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="product-info">
+		    	<span class="company"><i></i><span class="companyname">{{item.financialor}}</span></span>
+		    	<span class="type">{{item.repayType}}</span>
+		    </div>
+		  </ion-item>
+		</ion-list>	
+	  </div>
+    </ion-content>
 </ion-view>

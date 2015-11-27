@@ -24,15 +24,19 @@ define("js/app-route", function (require) {
             .state('tabs', {
               url: "/tab",
               abstract: true,
-              templateUrl: "creditmobile/tpl/tabs.html"
+              templateUrl: "creditmobile/tpl/tabs.html",
+              controllerUrl: 'controllers/tabCtrl',
+              controller: 'tabCtrl'
             })
             .state('tabs.home', {
               url: "/home",
+              cache: true,
               views: {
                 'home-tab': {
                   templateUrl: "creditmobile/tpl/home.html",
                   controllerUrl: 'controllers/homeCtrl',
-                  controller: 'homeCtrl'
+                  controller: 'homeCtrl',
+                  dependencies: ['services/productService']
                 }
               }
             })
@@ -62,9 +66,13 @@ define("js/app-route", function (require) {
             })
             .state('tabs.product', {
               url: "/product",
+              cache: true,
               views: {
                 'product-tab': {
-                  templateUrl: "creditmobile/tpl/product.html"
+                  templateUrl: "creditmobile/tpl/product.html",
+                  controllerUrl: 'controllers/productCtrl',
+                  controller: 'productCtrl',
+                  dependencies: ['services/productService']
                 }
               }
             })

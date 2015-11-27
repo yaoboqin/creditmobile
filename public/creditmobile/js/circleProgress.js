@@ -26,7 +26,7 @@
         options.fontScale = options.fontScale || 0.4; //r
 
         options.toFixed = options.toFixed || 0;
-        var canvas = document.getElementById(options.id);
+        var canvas = options.selector[0];
         if (canvas == null || canvas.getContext == null) {
             return;
         }
