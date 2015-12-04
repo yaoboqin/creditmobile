@@ -1,0 +1,72 @@
+body{ 
+	background: #f0efef;
+	color: #646464;
+}
+a:active,
+a:visited,
+a{ 
+	color: #646464;
+}
+.bar .button-link,
+.bar .button-link:active,
+.bar .button-link:visited{ 
+	color: #fff;
+}
+.bar-credit{ 
+	background: #7c2327;
+}
+.bar-credit h1{ 
+	color: #fff;
+}
+.list-block{ 
+	margin-top: 0;
+}
+.list-block .item-credit{ 
+	padding: 0;
+}
+.item-credit{ 
+	background: url(/creditmobile/images/items-bg.jpg);
+	background-size: 1rem;
+	border-bottom: 1px solid #ffffff;
+}
+.item-credit .item-box{ 
+	border-bottom: 1px solid #d7d1c4;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+.item-credit i{ 
+	width: 1.15rem;
+    height: 1.2rem;
+    background: url(/creditmobile/images/more-icon.png);
+    background-size: 1.15rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.item-credit i.icon-contact{ 
+	background-position: 0 -0.7rem;
+}
+.item-credit i.icon-about{ 
+	background-position: 0 -3rem;
+}
+.item-credit i.icon-safe{ 
+	background-position: 0 -5.3rem;
+}
+.item-credit i.icon-qa{ 
+	background-position: 0 -7.6rem;
+}
+.item-credit .item-inner{ 
+	font-size: .85rem;
+	padding-left: 2rem;
+}
+.item-credit .item-arrow{ 
+	background: url(/creditmobile/images/item-arrow.png);
+	background-size: contain;
+	width: 0.3rem;
+	height: 0.6rem;
+	display: block;
+	position: absolute;
+	right: 1rem;
+	top: 0.7rem;
+}

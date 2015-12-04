@@ -2,20 +2,77 @@
 <html>
   <head>
   	<meta charset="utf-8">
-    <meta content="yes" name="apple-mobile-web-app-capable">
-    <meta content="yes" name="apple-touch-fullscreen">
-    <meta content="telephone=no,email=no" name="format-detection">
-    <title>中标贷</title>
-    <link rel='stylesheet' href='/creditmobile/base/css/ionic/ionic.css' />
-    <link rel='stylesheet' href='/creditmobile/css/common.css' />
-    <script src="/creditmobile/base/lib-flexible/0.3.4/??flexible.js,flexible_css.js"></script>
-    <script src="/creditmobile/base/js/??sea.js,seajs-css.js,seajs-combo.js,seajs-config.js,bootstrap.js"></script> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>更多</title>
+    <meta name="author" content="yaoboqin">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel='stylesheet' href='/creditmobile/css/base/??sm.css,sm-extend.css' />
+    <link rel='stylesheet' href='/creditmobile/css/base.css' />
+    <!--<script src="/creditmobile/base/lib-flexible/0.3.4/??flexible.js,flexible_css.js"></script>-->   
   </head>
   <body>
-    <ion-nav-bar animation="nav-title-slide-ios7" class="bar-credit">
-      <ion-nav-back-button>
-      </ion-nav-back-button>
-    </ion-nav-bar>       
-    <ion-nav-view animation="slide-left-right"></ion-nav-view>
+    <div class="page">
+        <header class="bar bar-nav bar-credit">
+          <h1 class="title">更多</h1>
+        </header>
+        <div class="content">
+          <div class="list-block">
+            <ul>
+              <li class="item-content item-credit">
+                <a class="row no-gutter item-box"  href="/creditmobile/tpl/more/contact.html">
+                  <div class="col-20"><i class="icon-contact"></i></div>
+                  <div class="col-70 item-inner">联系我们</div>
+                  <div class="col-10"><span class="item-arrow"></span></div>
+                </a>
+              </li>
+              <li class="item-content item-credit">
+                <a class="row no-gutter item-box"  href="/creditmobile/tpl/more/about.html">
+                  <div class="col-20"><i class="icon-about"></i></div>
+                  <div class="col-70 item-inner">关于我们</div>
+                  <div class="col-10"><span class="item-arrow"></span></div>
+                </a>
+              </li>
+              <li class="item-content item-credit">
+                <a class="row no-gutter item-box"  href="/creditmobile/tpl/more/about.html">
+                  <div class="col-20"><i class="icon-safe"></i></div>
+                  <div class="col-70 item-inner">安全保障</div>
+                  <div class="col-10"><span class="item-arrow"></span></div>
+                </a>
+              </li>
+              <li class="item-content item-credit">
+                <a class="row no-gutter item-box"  href="/creditmobile/tpl/more/about.html">
+                  <div class="col-20"><i class="icon-qa"></i></div>
+                  <div class="col-70 item-inner">常见问题</div>
+                  <div class="col-10"><span class="item-arrow"></span></div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="bar bar-tab">
+          <a class="tab-item" href="#">
+            <span class="icon icon-home"></span>
+            <span class="tab-label">精品推荐</span>
+          </a>
+          <a class="tab-item" href="#">
+            <span class="icon icon-app"></span>
+            <span class="tab-label">理财产品</span>
+          </a>
+          <a class="tab-item" href="#">
+            <span class="icon icon-me"></span>
+            <span class="tab-label">我的账户</span>
+          </a>
+          <a class="tab-item active" href="#">
+            <span class="icon icon-settings"></span>
+            <span class="tab-label">更多</span>
+          </a>
+        </nav>
+    </div>
+    <script src="/creditmobile/js/base/??zepto.js,sm.js,sm-extend.js"></script>
+    <script src="/creditmobile/js/more.js"></script>
   </body>
 </html>

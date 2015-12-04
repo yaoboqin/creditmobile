@@ -1,6 +1,6 @@
 {
   "urls": {
-    "/": "d:/workspace/creditmobile/public"
+    "/": "d:/workspace/creditmobile-sm/public"
   },
   "charset": "utf-8",
   "urlBasedCharset": {},
@@ -9,6 +9,7 @@
   "headers": {},
   "servlet": "?",
   "seperator": ",",
+  "supportedFile": "\\.js$|\\.css$|\\.png$|\\.gif$|\\.jpg$|\\.ico$|\\.swf$|\\.xml$|\\.less$|\\.scss$|\\.svg$|\\.ttf$|\\.eot$|\\.woff$|\\.woff2$|\\.mp3$|\\.exe$|\\.html|\\.htm$$",
   "filter": {},
   "engine": {},
   "dac/tpl": {

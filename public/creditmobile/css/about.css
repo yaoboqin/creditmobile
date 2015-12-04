@@ -1,0 +1,117 @@
+@font-face {font-family: "about";
+  src: url('fonts/about.woff') format('woff');
+}
+
+#about .iconabout {
+  font-family:"about" !important;
+  font-size:0.8rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+#about .icon-lianxiwomen:before { content: "\e600"; }
+#about .icon-shangla:before { content: "\e601"; }
+#about .icon-jianjie05:before { content: "\e602"; }
+#about .icon-jiaruwomen:before { content: "\e603"; }
+#about .icon-tuandui:before { content: "\e604"; }
+#about .icon-xialajiantou:before { content: "\e601"; }
+
+#about .item-credit i{ 
+	width: 1.2rem;
+	height: 1.2rem;
+	font-size: 0.8rem;
+	background: #7c2327;
+	color: #ece7e1;
+	text-align: center;
+	border-radius: 0.2rem;
+	display: block;
+	top: 0.7rem;
+}
+#about .icon-shangla,
+#about .icon-xialajiantou{ 
+	font-size: 1.2rem;
+	color: #656564;
+	text-align: center;
+	display: block;
+}
+@-webkit-keyframes flip{  
+	0% {   
+		-webkit-transform: rotate(180deg);
+	}  
+	100% {   
+		-webkit-transform: rotate(0deg);
+	} 
+}
+@-webkit-keyframes reflip{  
+	0% {   
+		-webkit-transform: rotate(0deg);
+	}  
+	100% {   
+		-webkit-transform: rotate(180deg);
+	} 
+}
+#about .icon-shangla{ 
+	-webkit-animation: flip 0.2s linear forwards;
+}
+#about .icon-xialajiantou{ 
+	-webkit-animation: reflip 0.2s linear forwards;
+}
+#about .list-block .item-content{ 
+	display: block;
+}
+#about .detail{ 
+	padding: 0.5rem;
+	display: none;
+}
+#about .detail p{ 
+	margin: 0;
+	text-indent: 2em;
+	font-size: 0.8rem;
+}
+#about .detail p img{ 
+	float: left;
+	margin-right: 1rem;
+	width: 3.3rem;
+}
+#about .detail p.noindent{ 
+	text-indent: 0;
+	font-weight: bold;
+	margin: 0.5rem 0;
+}
+#about .detail p.nopadding{ 
+	text-indent: 0;
+}
+@font-face {font-family: "contacts-2";
+  src: url('fonts/contacts-2.woff') format('woff'), /* chrome, firefox */
+  url('fonts/contacts-2.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('fonts/contacts-2.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+#about .iconcontacts-2 {
+  font-family:"contacts-2" !important;
+  font-size:0.8rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #9f7a24;
+  margin: 0 0.2rem;
+}
+.icon-mailcode:before { content: "\e603"; }
+.icon-address:before { content: "\e602"; }
+.icon-email:before { content: "\e601"; }
+.icon-tel:before { content: "\e600"; }
+#about .detail .detail-item{ 
+	border-bottom: 1px solid #fff;
+	padding-top: 0.3rem;
+}
+#about .detail .detail-item .border{ 
+	border-bottom: 1px solid #d7d1c4;
+	padding-bottom: 0.3rem;
+}
+#about .detail .detail-item.noborder{ 
+	border: none;
+}
+#about .detail .detail-item.noborder .border{ 
+	border: none;
+}
